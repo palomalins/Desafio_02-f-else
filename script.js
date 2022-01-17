@@ -13,17 +13,23 @@ if(janeiro == true && dezembro == false){
 }else{
     console.log("Parabéns por nascer no último mês do ano")
 }
-let ferreira = true;
-let lins = false;
-if(ferreira == true && lins == false){
-    console.log("Seu sobrenome é extenso!")
-} else{
-    console.log("Seu sobrenome é mínimo")
+
+let nome = "Ricardo";
+if( nome.substring( "R")){
+    console.log("Seu nome começa com R")
+}else{
+    console.log("Seu nome não começa com R")
 }
-let enzzo = true;
-let henrique = false;
-if(enzzo == true && henrique == false){
-    console.log("Seu nome começa com E!")
-} else{
-    console.log("Seu nome não começa com E")
+
+let sobreNome = "Ferreira"
+if(sobreNome.length >= 6){
+console.log("Seu sobrenome é lindo!")
+}else{
+    console.log("")
 }
+
+let _sobrenome = "Escobar"
+if(sobreNome.substring("E")){
+    console.log("Seu sobrenome começa com a letra E")
+}
+
